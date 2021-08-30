@@ -80,6 +80,7 @@ nav {
   padding-top: 5px;
   padding-bottom: 5px;
   border-bottom: 1px solid lightgray;
+  background-color: #fff;
   .container {
     width: 65%;
     margin: 0 auto;
@@ -97,7 +98,7 @@ nav {
     }
     .input {
       input {
-        width: 200px;
+        width: 180px;
         height: 28px;
         border-radius: 4px;
         border: 1px solid lightgray;
@@ -109,9 +110,13 @@ nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      svg {
+        cursor: pointer;
+      }
       img {
         width: 25px;
         border-radius: 50%;
+        cursor: pointer;
       }
     }
   }
