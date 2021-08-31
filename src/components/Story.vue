@@ -22,7 +22,6 @@ export default {
       .get(`https://flynn.boolean.careers/exercises/api/boolgram/profiles`)
       .then((response) => {
         this.stories = response.data;
-        console.log(this.stories);
       });
   },
   props: {},
@@ -40,6 +39,7 @@ export default {
   .story {
     margin: 0 8px;
     .white_circle {
+      cursor: pointer;
       display: flex;
       justify-content: center;
       align-items: center;

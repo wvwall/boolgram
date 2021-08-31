@@ -1,5 +1,6 @@
 <template>
   <section>
+    <div class="invisible"></div>
     <div class="container">
       <Left class="left" />
       <Right class="right" />
@@ -23,7 +24,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 section {
-  background-color: #fafafa;
+  height: auto;
+  .invisible {
+    width: 100%;
+    height: 50px;
+  }
   .container {
     width: 65%;
     margin: 0 auto;
@@ -37,8 +42,12 @@ section {
       background-color: #fafafa;
     }
     .right {
+      position: fixed;
+      top: 90px;
+      right: 60px;
       width: 30%;
-      background-color: tomato;
+      height: 100vh;
+      border: 1px solid tomato;
     }
   }
 }

@@ -81,6 +81,10 @@ nav {
   padding-bottom: 5px;
   border-bottom: 1px solid lightgray;
   background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   .container {
     width: 65%;
     margin: 0 auto;
@@ -103,6 +107,7 @@ nav {
         border-radius: 4px;
         border: 1px solid lightgray;
         text-align: center;
+        background-color: #fafafa;
       }
     }
     .icons {
