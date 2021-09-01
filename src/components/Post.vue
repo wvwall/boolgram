@@ -117,12 +117,17 @@
           >
           <p>{{ post.post_text }}</p>
         </div>
-
-        <div class="comments">
+        <div class="box_n_comments">
+          <small
+            >Totale commenti :
+            <strong>{{ post.comments.length }}</strong></small
+          >
+        </div>
+        <!-- <div class="comments">
           <strong>{{ post.comments[0].username }}</strong>
           <p>{{ post.comments[0].text }}</p>
         </div>
-        <!-- <div class="comments">
+        <div class="comments">
           <strong>{{ post.comments[1].username }}</strong>
           <p>{{ post.comments[1].text }}</p>
         </div>
@@ -130,13 +135,6 @@
           <strong>{{ post.comments[2].username }}</strong>
           <p>{{ post.comments[2].text }}</p>
         </div> -->
-
-        <div class="box_n_comments">
-          <small
-            >Totale commenti :
-            <strong>{{ post.comments.length }}</strong></small
-          >
-        </div>
       </div>
     </div>
   </div>
@@ -284,12 +282,12 @@ export default {
         justify-content: start;
         margin-left: 15px;
         margin-top: 5px;
-        margin-bottom: 20px;
       }
     }
     .comments {
       display: flex;
       font-size: 14px;
+      margin-bottom: 20px;
       margin-top: 5px;
       strong {
         margin-left: 15px;

@@ -34,10 +34,12 @@ export default {
   height: 100%;
   display: flex;
   align-items: center;
-
   overflow-x: scroll;
   .story {
-    margin: 0 8px;
+    margin: 0 5px;
+    div:first-child {
+      margin-left: 15px;
+    }
     .white_circle {
       cursor: pointer;
       display: flex;

@@ -28,6 +28,6 @@ export default {
   background-color: #fff;
   border: 1px solid lightgray;
   border-radius: 5px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 </style>

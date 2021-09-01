@@ -32,7 +32,6 @@ section {
   .container {
     width: 65%;
     margin: 0 auto;
-
     border-radius: 5px;
     height: 100vh;
     margin-top: 40px;
@@ -47,7 +46,6 @@ section {
       right: 60px;
       width: 30%;
       height: 100vh;
-      border: 1px solid tomato;
     }
   }
 }
