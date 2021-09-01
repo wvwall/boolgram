@@ -36,9 +36,15 @@ section {
     height: 100vh;
     margin-top: 40px;
     display: flex;
+    @media all and (max-width: 768px) {
+      width: 85%;
+    }
     .left {
       width: 70%;
       background-color: #fafafa;
+      @media all and (max-width: 768px) {
+        width: 100%;
+      }
     }
     .right {
       position: fixed;
@@ -46,6 +52,9 @@ section {
       right: 60px;
       width: 30%;
       height: 100vh;
+      @media all and (max-width: 768px) {
+        display: none;
+      }
     }
   }
 }
