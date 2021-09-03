@@ -1,5 +1,8 @@
 # boolgram
 
+![Screenshot](screen_1.png)
+![Screenshot](screen_2.png)
+
 ## Descrizione Progetto
 
 In questo esercizio post corso creeremo un'applicazione che replica il funzionamento di **Instagram Web**.
