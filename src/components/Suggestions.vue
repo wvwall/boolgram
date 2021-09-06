@@ -6,7 +6,10 @@
     <div v-for="(story, index) in stories" :key="index" class="Users">
       <div class="profile">
         <img :src="story.profile_picture" alt="" />
-        <p>{{ story.profile_name }}</p>
+        <div class="profi">
+          <p>{{ story.profile_name }}</p>
+          <small>Seguito da altri profili</small>
+        </div>
       </div>
       <div class="segui"><small>Segui</small></div>
     </div>
@@ -52,17 +55,20 @@ export default {
       display: flex;
       align-items: center;
       img {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
         border-radius: 50%;
         margin: 6px 10px;
         cursor: pointer;
       }
-      p {
-        font-weight: bold;
-        cursor: pointer;
-        &:hover {
-          text-decoration: underline;
+      .profi {
+        text-align: start;
+        p {
+          font-weight: bold;
+          cursor: pointer;
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
     }

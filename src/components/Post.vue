@@ -123,11 +123,11 @@
             <strong>{{ post.comments.length }}</strong></small
           >
         </div>
-        <!-- <div class="comments">
+        <div class="comments">
           <strong>{{ post.comments[0].username }}</strong>
           <p>{{ post.comments[0].text }}</p>
         </div>
-        <div class="comments">
+        <!-- <div class="comments">
           <strong>{{ post.comments[1].username }}</strong>
           <p>{{ post.comments[1].text }}</p>
         </div>
